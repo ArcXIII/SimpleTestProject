@@ -1,0 +1,61 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Store desired IP here</h2>
+
+@section Scripts {
+    <script>
+        function StoreIp() {
+
+            query = $("#query").val();
+
+            $.ajax({
+                url: "/api/ipstorage/storeip",
+                type: "POST",
+                contentType: "application/json;charset=utf-8",
+                data: JSON.stringify(query),
+                dataType: "json",
+                success: function (response) {
+
+                    alert(response);
+
+                },
+
+                error: function (x, e) {
+                    alert('Failed');
+                    alert(x.responseText);
+                    alert(x.status);
+
+                }
+            });
+        }
+
+        $(document).ready(function () {
+            $("#btnSave").click(function (e) {
+
+                StoreIp();
+                e.preventDefault();
+            });
+        });
+    </script>
+}
+
+<div style="background-color: Navy; color: White">
+    <table>
+        <tr>
+            <td>
+                Ip: &nbsp;
+            </td>
+            <td>
+                <input id="query" type="text" />
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input ID="btnSave" type="button" value="Store Ip" />
+            </td>
+        </tr>
+    </table>
+</div>

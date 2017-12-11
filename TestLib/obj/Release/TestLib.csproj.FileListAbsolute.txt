@@ -1,0 +1,13 @@
+G:\MyProjects\VSProjects\IPStorage\TestLib\bin\Release\TestLib.exe.config
+G:\MyProjects\VSProjects\IPStorage\TestLib\bin\Release\TestLib.exe
+G:\MyProjects\VSProjects\IPStorage\TestLib\bin\Release\TestLib.pdb
+G:\MyProjects\VSProjects\IPStorage\TestLib\bin\Release\IPStorageLib.dll
+G:\MyProjects\VSProjects\IPStorage\TestLib\bin\Release\Newtonsoft.Json.dll
+G:\MyProjects\VSProjects\IPStorage\TestLib\bin\Release\MySql.Data.dll
+G:\MyProjects\VSProjects\IPStorage\TestLib\bin\Release\RestSharp.dll
+G:\MyProjects\VSProjects\IPStorage\TestLib\bin\Release\IPStorageLib.pdb
+G:\MyProjects\VSProjects\IPStorage\TestLib\bin\Release\Newtonsoft.Json.xml
+G:\MyProjects\VSProjects\IPStorage\TestLib\bin\Release\MySql.Data.xml
+G:\MyProjects\VSProjects\IPStorage\TestLib\obj\Release\TestLib.csprojResolveAssemblyReference.cache
+G:\MyProjects\VSProjects\IPStorage\TestLib\obj\Release\TestLib.exe
+G:\MyProjects\VSProjects\IPStorage\TestLib\obj\Release\TestLib.pdb
